@@ -2,7 +2,7 @@
 //202610125118
 #include <stdio.h>
 int main ()
-{printf("请输入简单算式：");
+{printf("输入：");
     float a,b,c;
     char op;
 scanf("%f %c %f",&a,&op,&b);
