@@ -1,0 +1,11 @@
+//唐光辉
+//202610125118
+#include <stdio.h>
+int main(){
+float C,F;
+printf("输入：");
+scanf("%f",&C);
+F = C*9/5.0+32;
+printf("输出：华氏温度= %.1f",F);
+
+}
