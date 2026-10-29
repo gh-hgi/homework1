@@ -9,17 +9,17 @@ if (op=='/'&&b==0){
     printf("错误：除数不能为零\n");}
 else if (op=='+'){
     c=a+b;
-    printf("%f+%f=%f\n",a,b,c);}
+    printf("%.2f\n",c);}
 else if (op=='-'){
     c=a-b;
-    printf("%f-%f=%f\n",a,b,c);}
+    printf("%.2f\n",c);}
 else if(op=='*'){
     c=a*b;
-    printf("%f*%f=%f\n",a,b,c);}
+    printf(".2%f\n",c);}
 else if(op=='/'){
     c=a/b;
-    printf("%f/%f=%f\n",a,b,c);}
+    printf("%.2f\n",c);}
 else{
-    printf("错误：不支持运算符");
+    printf("错误：不支持的运算符");
 }
 }
