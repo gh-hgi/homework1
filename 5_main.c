@@ -6,7 +6,7 @@ int main ()
     char op;
 scanf("%f %c %f",&a,&op,&b);
 if (op=='/'&&b==0){
-    printf("错误：除数不能为零\n");}
+    printf("错误：除数不能为 0 \n");}
 else if (op=='+'){
     c=a+b;
     printf("%.2f\n",c);}
@@ -15,7 +15,7 @@ else if (op=='-'){
     printf("%.2f\n",c);}
 else if(op=='*'){
     c=a*b;
-    printf(".2%f\n",c);}
+    printf("%.2f\n",c);}
 else if(op=='/'){
     c=a/b;
     printf("%.2f\n",c);}
